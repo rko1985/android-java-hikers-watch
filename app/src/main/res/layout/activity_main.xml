@@ -72,12 +72,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
-        android:text="Address:\n40 street blvd\nsomewhere, kansas"
+        android:layout_marginTop="20dp"
+        android:text="Altitude: 40"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addressTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/accuracyTextView" />
 
     <TextView
         android:id="@+id/addressTextView"
@@ -85,10 +85,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Altitude: 40"
+        android:text="Address:"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/accuracyTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/altTextView" />
 
 </android.support.constraint.ConstraintLayout>
